@@ -4,6 +4,7 @@ import './App.css';
 import Favorites from './pages/Favorites';
 import MyAccount from './pages/MyAccount';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from './pages/About';
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/Favorites",
     element: <Favorites/>,
+  },
+  {
+    path: "/About",
+    element: <About/>,
   }
 
 ])

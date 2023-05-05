@@ -1,8 +1,10 @@
 
 
+
+
 const Logo = () => {
     return
-    <img src='/images/icon_logo-removebg-preview.png' alt="logo" ></img>
+    <img src='/images/logobgtransparente.png' alt="logo" className='' ></img>
 }
 
 
